@@ -1,0 +1,276 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins' ;
+
+  }
+/*----NAV BAR--*/
+ .bold{
+    font-size: 25px;
+ }
+
+.navbar{
+   background-color: white;
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+
+ li{
+    padding: 5px;
+ }
+ .nav-link{
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid transparent;
+
+ }
+ .nav-link:hover{
+    transition: 0.5s;
+    border-bottom: 2px solid hsl(278, 100%, 50%);
+
+ }
+ section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+ 
+ }
+
+
+ #headingg{
+    font-size: 32px;
+ }
+ #nm{
+    color: hsl(278, 100%, 50%);
+    font-size: 45px;
+ }
+.nav-link{
+color: hsl(0, 0%, 27%);
+}
+.nav-link:hover{
+ color: rgb(162, 0, 255);
+}
+/*home*/
+ #hm:hover{
+   color: rgb(162, 0, 255);
+ }
+#dwn{
+    background-color: white;
+    border: 2px solid rgb(162, 0, 255);
+}
+#dwn:hover{
+    color: white;
+    background-color: rgb(162, 0, 255);
+    border: 2px solid rgb(162, 0, 255);
+}
+#ic{
+    color: rgb(162, 0, 255);
+   
+}
+#cse{
+    color: rgb(162, 0, 255);
+}
+
+
+ #eduimg{
+   border-radius: 45px;
+ }
+ #butt{
+   color: rgb(162, 0, 255);
+   border: 2px solid rgb(162, 0, 255); 
+   background-color: white;
+ }
+ #butt:hover{
+   color: white;
+   background-color: rgb(162, 0, 255);;
+ }
+ #home,#about,#education,#skilsss{
+transition: 0.5s;
+ }
+
+ #home{
+  padding-top:0 ;
+   align-items: center;
+ }
+ .display-10{
+   padding-top: 90px;
+ }
+ @media only screen and (max-width: 600px)  {
+   .display-10{
+      padding-top: 0;
+   }
+ }
+#about{
+   align-items: center;
+}
+
+.card {
+   
+   width: 180px;
+}
+.skl li{
+   list-style: none;
+ 
+}
+.skl li{
+   color: white;
+   background-color: rgb(162, 0, 255);
+}
+.skl li:nth-child(even){
+   background-color: rgb(162, 0, 255);
+}
+.skl{
+   align-items: center;
+   justify-content: first baseline;
+}
+#abtsec{
+ padding-top: 40px;
+}
+.b1{
+   width: 100%;
+   height: 12px;
+   background-color: rgb(192, 192, 192);
+   border-radius: 10px;
+   margin: 4px;
+}
+
+#skills{
+   align-items: center;
+  font-weight: 800;
+}
+.s1{
+   width: 70%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+   transition: 2s;
+}
+.s2{
+   width: 100%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+}
+.s3{
+   width: 90%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+}
+.s4{
+   width: 40%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+}
+.s5{
+   width: 80%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+}
+.s6{
+   width: 85%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+}
+.s7{
+   width: 76%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+}
+.s8{
+   width: 92%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+}
+.s9{
+   width: 52%;
+   height: 12px;
+   background-color: rgb(162, 0, 255);
+   border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+   #home{
+     padding-top: 55px;
+   }
+}
+.card-title{
+   font-weight: 600;
+}
+#cb{
+   width: 50%;
+   background-color: rgb(214, 143, 255);
+   color: rgb(0, 0, 0);
+}
+#cb:hover{
+   background-color: rgb(178, 89, 230);
+}
+#skillsss{
+   align-items: center;
+}
+
+
+#foots{
+   background-color: rgb(162, 0, 255);
+   color: white;
+   border-radius:  50px 50px 0 0;
+}
+#ft{
+   background-color: white;
+   color: rgb(162, 0, 255);
+}
+#ft:hover{
+        color: white;
+         background-color: rgb(119, 0, 255);
+}
+#last a{
+   color: white;
+   text-decoration: none;
+   font-weight: 300;
+}
+#last a:hover{
+  color: rgb(251, 255, 0);
+
+}
+#ff{
+   color: white;
+}
+#tr{
+   transition: 0.6s;
+}
+
+#sim{
+   animation-name:imgsimeon ;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+@keyframes imgsimeon {
+   0%{
+      transform: scale(0.9);
+   }
+   50%{
+      transform: scale(1.1);
+   }
+   100%{
+      transform: scale(0.9);
+   }
+   
+}
+/*project*/
+
+#prj{
+   background-color: rgb(162, 0, 255);
+   border: none;
+   color: white;
+}
